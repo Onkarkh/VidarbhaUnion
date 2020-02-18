@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">VidarbhaUnion</string>
+    <string name="party_funds">Party Funds</string>
+    <string name="test_donation">Test Donation</string>
+    <string name="register_donation">Register Donation</string>
+    <string name="first_name">First Name</string>
+
+    <string-array name="food_item">
+        <item>Select a Food Item to Donate</item>
+        <item>Rice</item>
+        <item>Wheat</item>
+        <item>Sugar</item>
+        <item>Biscuits</item>
+        <item>Jaggery</item>
+        <item>Flour</item>
+        <item>Peanut</item>
+        <item>Almonds</item>
+        <item>Biscuits</item>
+        <item>Soybean</item>
+        <item>Pistachio</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="cloth_item">
+        <item>Select a Item to Donate</item>
+        <item>Shirt</item>
+        <item>Pant</item>
+        <item>Woolen Cloths</item>
+        <item>Shoes</item>
+        <item>Cloths</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="medicine_item">
+        <item>Select a Item to Donate</item>
+        <item>Tablet</item>
+        <item>Medicines</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="book_item">
+        <item>Select a Item to Donate</item>
+        <item>Note Book</item>
+        <item>Pencil</item>
+        <item>Pen</item>
+        <item>Stationary</item>
+        <item>Other</item>
+    </string-array>
+</resources>
