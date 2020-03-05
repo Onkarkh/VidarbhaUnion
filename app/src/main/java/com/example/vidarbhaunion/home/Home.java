@@ -9,6 +9,7 @@ import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.GridView;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -32,6 +33,8 @@ public class Home extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
         GridView gridView = view.findViewById(R.id.donationGridView);
+
+        fundsButton = view.findViewById(R.id.partyFunds);
 
         title = new ArrayList<>();
         title.add("Food");
@@ -81,10 +84,18 @@ public class Home extends Fragment {
             }
         });
 
-
-
+        fundsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                toastMessage("Coming Soon!");
+            }
+        });
 
         return view;
+    }
+
+    private void toastMessage(String s) {
+        Toast.makeText(getActivity(), s, Toast.LENGTH_SHORT).show();
     }
 
     private class SetData extends BaseAdapter {
